@@ -10,7 +10,7 @@
       var css = {position:'fixed',zIndex:100000};
       css[hor] = 0;
       css[vert] = 0;
-			$('body').append($('<img>').css(css).attr('src', 'https://raw.githubusercontent.com/kaminaly/award-banners/master/imgs/'+img));
+			$('body').append($('<img>').css(css).attr('src', 'https://raw.githubusercontent.com/kaminaly/ribbons/master/imgs/'+img));
 		}
 	}
 )('top','left','fwa/DayTopLeft.png');
